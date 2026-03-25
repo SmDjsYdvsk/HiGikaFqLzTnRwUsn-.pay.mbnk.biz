@@ -60,7 +60,7 @@ function startTimer(duration, display) {
         
         if (--timer < 0) {
             clearInterval(interval);
-            document.getElementById("timer-wrapper").innerHTML = "<p>☠️ Квиток недійсний</p>";
+            document.getElementById("timer-wrapper").innerHTML = " ☠️  Квиток недійсний ";
         }
 
 
